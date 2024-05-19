@@ -1,9 +1,12 @@
 <?php
 
 namespace App\Controllers;
+use App\Helpers\HttpResponses\Success;
 
-class SignUpController {
+class SignUpController extends BaseController {
   public function index() {
-    echo "teste index";
+    $body = $this->requestBody();
+
+    new Success($body);
   }
 }
