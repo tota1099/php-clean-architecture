@@ -1,5 +1,7 @@
 ## PHP Clean Architecture
 
+[![codecov](https://codecov.io/github/tota1099/php-clean-architecture/graph/badge.svg?token=4WDL1NBV4C)](https://codecov.io/github/tota1099/php-clean-architecture)
+
 ## Rodar aplicação
 
 ```bash
